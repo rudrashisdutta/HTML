@@ -1,0 +1,18 @@
+body{
+    background-color: ;
+}
+.heading{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder
+}
+.subHeading{
+    font-size: larger;
+    font-family: monospace;
+    font-weight: bold
+}
+.data{
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+}

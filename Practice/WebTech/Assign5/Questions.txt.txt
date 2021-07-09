@@ -1,0 +1,5 @@
+Q1. How submit button works on server side?
+Q2. Explain the working principle of GET and POST method using example.
+
+
+Due: Monday

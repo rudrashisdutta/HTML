@@ -1,0 +1,9 @@
+.circles {
+	background:
+    radial-gradient(7em 7em at 35% 35%, red 50%, transparent 50%),
+    radial-gradient(7em 7em at 50% 50%, gold 50%, transparent 50%),
+    radial-gradient(7em 7em at 65% 65%, blue 50%, transparent 50%);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+}

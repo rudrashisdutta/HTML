@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            color: red;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            padding: 10px 20px;
+            margin-left: 300px;
+            margin-top: 150px;
+        }
+        .button{
+            margin-left: 400px;
+        }
+        .form{
+            margin-left:300px;
+            margin-top: 50px;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <table style="width:100%">
+        <tr>
+            <th>Login</th>
+            <th>Registration</th>
+            <th>Help Center</th>
+            <th>Cart</th>
+        </tr>
+    </table>
+    <div class="form">
+    <h2>Registration Page</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">Name:</label><br>
+      <input type="text" id="fname" name="fname" value="Rudrashis"><br><br>
+
+      <label for="lname">password</label><br>
+      <input type="password" id="lname" name="lname" value="password"><br><br>
+      
+      <label for="fname">E-mail id</label><br>
+      <input type="text" id="fname" name="fname" value="1906354@kiit.ac.in"><br><br>
+      
+      <label for="fname">Phone number</label><br>
+      <input type="text" id="fname" name="fname" value="8917544771"><br><br>
+      
+      <h3>Gender</h3>
+        <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+      
+      <h3><label for="birthday">Date of birth:</label></h3>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      
+      <h3>Languages Known</h3>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> English</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> Hindi</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> Odiya</label><br><br>
+      <input type="checkbox" id="vehicle4" name="vehicle4" value="Bear">
+      <label for="vehicle4"> Tamil</label><br><br>
+      <input type="checkbox" id="vehicle5" name="vehicle5" value="Goat">
+      <label for="vehicle5"> Bangla</label><br><br>
+      <h3>Address</h3>
+      <textarea name="message" rows="10" cols="30">
+    Type Your address here
+    </textarea><br><br>
+      
+      
+      <input type="submit" value="Submit">
+    </form> 
+</div>
+    
+    
+
+</body>
+</html>

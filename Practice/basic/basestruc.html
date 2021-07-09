@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: rgb(255, 0, 0);
+        }
+        
+        h1 {
+            color: teal;
+        }
+        
+        a:hover {
+            color: darkgrey;
+            background-color: midnightblue;
+        }
+        
+        a:active {
+            background-color: royalblue;
+        }
+        
+        a:visited {
+            color: rgb(124, 248, 0);
+        }
+        
+        table {
+            padding: 10px;
+            border: 1px solid black;
+            border-spacing: 10px;
+        }
+        
+        #listsq {
+            color: floralwhite;
+            list-style-type: square;
+        }
+        
+        #listromu {
+            color: floralwhite;
+            list-style: upper-roman;
+        }
+        
+        #listb li::before {
+            content: ">>";
+            color: darkturquoise;
+        }
+        
+        dt {
+            text-decoration: underline;
+            color: greenyellow;
+        }
+        
+        dd {
+            font: italic;
+            color: gold;
+        }
+        
+        button:hover {
+            background-color: blue;
+            color: cornsilk;
+        }
+        
+        textarea {
+            background-color: darkkhaki;
+            color: black;
+        }
+        
+        textarea:hover {
+            border-color: darkblue;
+            color: darkblue;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>basic html program</p>
+    </header>
+    <main>
+        <form action="twins33.html" method="POST">
+            <label for="fulln">Name:</label>
+            <input type="text" name="fullname" placeholder="Enter theFull Name" id="fulln" autocapitalize="words"><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" placeholder="Enter the Age" id="age" min="18" \><br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" placeholder="Enter the Date Of Birth" id="dob" max="2002-01-01" \><br>
+            <label for="doa">DOA:</label>
+            <input type="date" name="doa" placeholder="Enter the Date Of Aniversary" id="doa" \><br>
+            <label for="roll">Roll Number:</label>
+            <input type="number" name="rollno" placeholder="Enter the Roll Number" id="roll" min="800000" max="1999999"><br>
+            <label for="un">Username:</label>
+            <input type="text" name="usern" placeholder="Enter the Username" id="un" minlength="8"><br>
+            <label for="ht">Height:&ensp;&nbsp;</label>
+            <input type="number" name=" hgt " placeholder="Enter the Height " id="ht " \><br>
+            <label for="em">Email:</label>
+            <input type="email" name="ema" placeholder="Enter the Email" id="em" \><br>
+            <label for="os">Operating System:</label>
+            <select name="OS" id="os">
+                <option value="Android One">Android One</option>
+                <option value="Apple">Apple</option>
+                <option value="Windows Phone">Windows Phone</option>
+                <option value="Linux">Linux</option>
+                <option value="Nokia">Nokia</option>
+            </select>
+            <input type="submit">
+        </form>
+        <nav>
+            <a href="C:/HTML/twins33.html "><button>About Us</button></a>
+        </nav>
+        <img src="C:/Users/KIIT/Downloads/Instalogo.jpeg " alt="Instagram " id="sample " style="width: 10cm;height: 10cm; "><br>
+        <button onclick="al() " style="color: white;width: 3cm;height: 2cm;background-color: royalblue; ">Facebook logo</button>&emsp;&emsp;&emsp;&emsp;
+        <button onclick="ultal() " style="color:black;width: 3cm;height: 2cm;background-color:magenta; ">Instagram logo</button>&emsp;&emsp;&emsp;&emsp;
+        <button onclick="wapal() " style="color:white;width: 3cm;height: 2cm;background-color:green; ">Whatsapp logo</button>
+        <script type="text/javascript ">
+            function al() {
+                document.getElementById("sample ").src = "C:/Users/KIIT/Downloads/fblogo.jpeg "
+            }
+
+            function ultal() {
+                document.getElementById("sample ").src = "C:/Users/KIIT/Downloads/Instalogo.jpeg "
+            }
+
+            function wapal() {
+                document.getElementById("sample ").src = "C:/Users/KIIT/Downloads/whatsapp-dark-mode1.jpg "
+            }
+        </script><br>
+        <textarea id="ta " cols="30 " rows="10 " placeholder="Enter your text here.... "></textarea>
+        <button onclick="textarea(); ">SUBMIT</button>
+        <script type="text/javascript ">
+            function textarea() {
+                alert(document.getElementById("ta ").value);
+            }
+        </script>
+        <h1>Home</h1>
+        <p style="font-size: 40;font-family: 'Times New Roman', Times, serif;font-weight:lighter; "><i>This</i> is a para.<br>Hello Hi.</p>
+        <p><i>Italic</i><br><b>Bold</b><br><u>Underlined</u><br><code>Coded</code><br><tt>TypeWriter Text</tt><br><small>Small Text</small><br><em>Emphasized Text</em><br><strong>Strong Text</strong><br><mark>Marked Text</mark><br><q>Quoted Text</q><br><s>Striked Text</s><br><b><i><u><s>Mixed Format</s></u></i></b></p>
+        <p>Hi my name is <span style="color: darkmagenta;background-color: floralwhite;font-size: 15;font-family: monospace; ">Rudrashis Kumar Dutta</span>.<br>What is your name?</p>
+        <br><br><br>
+        <div style="background-color: white;color: blue; ">
+            <h1>Heading bol rha!</h1>
+            <p>Hello this is a paragraph speaking.</p>
+        </div>
+        <br><br><br>
+        <div style="background-color: cornflowerblue;color: darkkhaki; ">
+            <h1>Heading speaking</h1>
+            <p>Hello heading! Another paragraph speaking!</p><br><br>
+        </div>
+        <br><br>
+        <div style="background-color:darkslategrey; ">
+            <table style="color:black;width: 20%;height: 1cm; ">
+                <colgroup>
+                    <col style="background-color: cornsilk; ">
+                    <col style="background-color: cyan;color: black; ">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rudrashis</td>
+                        <td>Dutta</td>
+                    </tr>
+                    <tr>
+                        <td>Pooja</td>
+                        <td>Agarwal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <ul id="listsq ">Data
+                <li>Names
+                    <ol style="list-style: none; " id="listb ">
+                        <li>Rudrashis</li>
+                        <li>Pooja</li>
+                    </ol>
+                </li>
+                <li>Mid-Names
+                    <ol id="listromu ">
+                        <li>Kumar</li>
+                        <li>-</li>
+                    </ol>
+                </li>
+                <li>Titles
+                    <ol id="listromu ">
+                        <li>Dutta</li>
+                        <li>Agarwal</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <dl>
+                <dt>Dog</dt>
+                <dd>kutta h bhai.</dd>
+                <dt>Cat</dt>
+                <dd>Billi h bhai.</dd>
+            </dl>
+        </div>
+        <hr style=" width:6cm; height: 1px; " color="red ">
+        <center>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; ">Contact us at:<br></p>
+            <div class="name " id="name ">
+                <!--some content goes here-->
+            </div>
+            <a href="https://www.facebook.com/rudrashis.dutta.258/ " title="Rudrashis Kumar Dutta " style="font-size: 20;color:mediumblue; " target="_new "><img src="C:/Users/KIIT/Downloads/fblogo.jpeg " alt="Facebook " style="width: 5mm;height: 5mm; ">Rudrashis Kumar Dutta</a>&emsp;&emsp;&emsp;&emsp;
+            <a href="https://www.instagram.com/rudra_2508_/ " title="rudra_2508_ " style="font-size: 20; color: magenta " target="_blank "><img src="C:/Users/KIIT/Downloads/Instalogo.jpeg " alt="Instagram " style="width: 5mm;height: 5mm; ">rudra_2508_</a>
+            <br>
+            <a href="https://www.facebook.com/pooja.agarwal.2811/ " title="Pooja Agarwal " style="font-size: 20;color:mediumblue; " target="_blank "><img src="C:/Users/KIIT/Downloads/fblogo.jpeg " alt="Facebook " style="width: 5mm;height: 5mm; ">Pooja Agarwal</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/pooja_2811_/ " title="pooja_2811_ " style="font-size: 20; color: magenta " target="_blank "><img src="C:/Users/KIIT/Downloads/Instalogo.jpeg " alt="Instagram " style="width: 5mm;height: 5mm; ">pooja_2811_</a>
+        </center>
+        <br><br>
+        <a href="C:\Users\KIIT\Downloads\IMG_9603.JPG " title="pooja_2811_ " style="font-size: 20; color: magenta ;float: right; "><img src="C:/Users/KIIT/Downloads/Instalogo.jpeg " alt="Instagram " style="width: 5mm;height: 5mm; ">pooja_2811_</a>
+    </main>
+    <footer>
+        &copy;copyrights reserved|hellohi 2020
+    </footer>
+</body>
+
+</html>
